@@ -18,6 +18,3 @@ hist(hpc_data$Global_active_power,xlab="Global Active Power (kilowatts)", ylim=c
 # sage to file
 dev.copy(png,'plot1.png',width=654,height=654, units="px",res=72)
 dev.off()
-
-
-png(filename="./plot1.png", height=295, width=300, bg="white")
